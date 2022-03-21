@@ -1,0 +1,42 @@
+.centralizar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p-branco {
+  color: #ffffff;
+}
+
+#opcoes p {
+  margin-top: 15px;
+}
+
+#navbar {
+  width: 15%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  background: #000000;
+}
+
+#opcoes {
+  margin-top: 20%;
+  width: 100%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#settings {
+  margin-top: 20%;
+  width: 70%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
