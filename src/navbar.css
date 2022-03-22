@@ -40,3 +40,8 @@
   align-items: center;
   justify-content: space-evenly;
 }
+
+#settings p {
+  color: #ffffff;
+  margin: 0;
+}

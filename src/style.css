@@ -9,3 +9,8 @@
 main {
   display: flex;
 }
+
+#main-section {
+  width: 100vw;
+  height: 100vh;
+}
