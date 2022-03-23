@@ -14,3 +14,8 @@ main {
   width: 100vw;
   height: 100vh;
 }
+
+#table-graphic {
+  display: flex;
+  align-items: center;
+}

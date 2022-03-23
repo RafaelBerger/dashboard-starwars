@@ -1,9 +1,20 @@
 #table-section {
-  margin-top: 5%;
   margin-left: 8%;
   width: 50%;
+  height: 450px;
   border-radius: 15px;
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+#chart {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+
+  width: 350px;
+  height: 450px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
 }
 
 #table-section div {
