@@ -41,13 +41,13 @@ Dashboard created to study API, using a public StarWars API.
 <img src="https://user-images.githubusercontent.com/84355579/159811385-93f1bc7a-30f9-49a4-81a0-6356ba60ea3f.jpg" width="450px" />
 </div>
 
-## Funcionalidades
+## Functionalities
 
 - GET request
 - Table using 6 films information
 - A graphic using Google Charts
 
-## Tecnologias utilizadas
+## Used Technologies
 
 [![Javascript](https://camo.githubusercontent.com/aeddc848275a1ffce386dc81c04541654ca07b2c43bbb8ad251085c962672aea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145)]()
 
@@ -56,6 +56,6 @@ Dashboard created to study API, using a public StarWars API.
 [![CSS3](https://camo.githubusercontent.com/e6b67b27998fca3bccf4c0ee479fc8f9de09d91f389cccfbe6cb1e29c10cfbd7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f637373332d2532333135373242362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465)]()
 
 
-## Autores
+## Authors
 
 - [@RafaelBerger](https://www.github.com/RafaelBerger)
