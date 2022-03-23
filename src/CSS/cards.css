@@ -23,14 +23,19 @@
 }
 
 .card-large {
+  display: flex;
+  flex-direction: row;
   width: 40%;
 }
 
 .info-card {
-  width: 50%;
+  width: 100%;
   font-weight: 700;
   display: flex;
   flex-direction: column;
+}
+.info-card p {
+  margin: 0;
 }
 
 #separacao {
@@ -41,4 +46,13 @@
 
 .card-content {
   text-align: center;
+}
+
+#planeta-resp {
+  display: flex;
+  height: 80px;
+}
+#lua-resp {
+  display: flex;
+  height: 80px;
 }
