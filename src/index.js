@@ -90,15 +90,12 @@ google.charts.setOnLoadCallback(preencherGrafico);
 async function preencherGrafico() {
   const resposta = await starWarsAPI("planets/");
   const planetasArray = resposta.data.results;
-  console.log(resposta);
 
   const dataArray = [];
   dataArray.push(["Planetas", "Diametro"]);
   planetasArray.forEach((planeta) => {
     dataArray.push([planeta.name, Number(planeta.diameter)]);
   });
-
-  console.log(dataArray);
 
   var data = google.visualization.arrayToDataTable(dataArray);
 
