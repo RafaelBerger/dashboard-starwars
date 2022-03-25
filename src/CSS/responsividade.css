@@ -8,7 +8,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     background-color: #000000;
   }
@@ -17,8 +17,13 @@
     display: flex;
     flex-direction: column;
   }
+  #opcoes .p-branco {
+    margin: 0 0 10px 0;
+  }
   #settings {
     margin: 0;
+    display: flex;
+    justify-content: center;
   }
 
   #cards-section {
@@ -31,14 +36,44 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 80%;
-    height: 40%;
+    width: 60%;
+    height: 20%;
     border-radius: 15px;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
   }
 
   .card-large {
     display: flex;
-    height: 60%;
+    width: 90%;
+    height: 30%;
+  }
+
+  #table-graphic {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #table-section {
+    width: 80%;
+    height: 72vh;
+  }
+  #chart {
+    margin-top: 30px;
+    width: 90%;
+    height: 50vh;
+
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+  }
+}
+
+@media (max-height: 670px) {
+  .p-branco {
+    margin: 0;
+    padding: 0;
   }
 }
