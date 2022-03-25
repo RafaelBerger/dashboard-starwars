@@ -29,6 +29,7 @@
   #cards-section {
     display: flex;
     flex-direction: column;
+    width: 100vw;
     height: 80vh;
   }
 
@@ -51,20 +52,22 @@
   #table-graphic {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   #table-section {
-    width: 80%;
+    margin: 0;
+    padding: 0;
+    width: 90%;
     height: 72vh;
   }
   #chart {
-    margin-top: 30px;
+    margin: 30px 0 30px 0;
     width: 90%;
     height: 50vh;
 
     display: flex;
     align-items: center;
-    margin-left: 2%;
 
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
@@ -75,5 +78,11 @@
   .p-branco {
     margin: 0;
     padding: 0;
+  }
+}
+
+@media (max-height: 750px) {
+  #table-section {
+    height: 90vh;
   }
 }
